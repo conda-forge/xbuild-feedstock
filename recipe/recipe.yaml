@@ -24,7 +24,7 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - setuptools ==84.0.0
+    - setuptools ==84.2.1
     - setuptools-scm ==10.3.4
     - pip
   run:
@@ -33,7 +33,6 @@ requirements:
     - dependency-groups
     - platformdirs
     - filelock
-    - tomli-w
 
 tests:
   - python:
