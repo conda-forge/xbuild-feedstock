@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.1"
+  version: "0.5.0"
 
 package:
   name: xbuild
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/x/xbuild/xbuild-${{ version }}.tar.gz
-  sha256: f0b1f76adab44b1be6d0587d1433ced1a0903e7402ef381f6f7c35b0e8126d17
+  sha256: 2b009625afc24406059b036376087c262ca4abfa96a7e5d8c1a67735cba4bf5c
 
 build:
   number: 0
